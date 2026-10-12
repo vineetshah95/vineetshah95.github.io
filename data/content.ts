@@ -48,11 +48,10 @@ export const roles: Role[] = [
         title: 'Senior Software Engineer',
         dates: 'Apr 2026 – Oct 2026',
         bullets: [
-          'Design and build Java and Spring Boot microservices and REST APIs for enterprise customers, with a focus on reliability, performance and security.',
-          'Lead the migration of legacy content services to a next-generation microservices platform, including OS, JDK and build-system upgrades.',
-          'Built the build and deployment setup for new file, content and management services, shipped as containers through CI/CD.',
+          'Build Java and Spring Boot microservices and REST APIs for enterprise customers, with a focus on reliability, performance and security.',
+          'Work on the migration of legacy content services to a next-generation microservices platform, including OS, JDK and build-system upgrades.',
           'Run containerized services on Kubernetes and AWS with Docker, Helm and Nginx, monitored through Grafana.',
-          'Built a document watermarking service for the data room platform, with rights management, virus scanning and threat modeling.',
+          'Worked on a document watermarking service for the data room platform, covering rights management, virus scanning and threat modeling.',
           'Troubleshoot production issues across application code, databases and infrastructure to keep customers unaffected.',
         ],
       },
@@ -88,14 +87,28 @@ export const roles: Role[] = [
     company: 'April Innovations',
     href: 'https://aprilinnovations.com/',
     place: 'Mumbai, India',
-    dates: 'Sep 2018 – Sep 2019',
-    title: 'Full Stack Developer',
-    bullets: [
-      'Replaced error-prone Excel data entry with a MongoDB data platform for a large dataset.',
-      'Built MEAN-stack APIs for a doctor–patient platform with dynamic questionnaires and appointment scheduling.',
-      'Designed the UI and integrated online payments for a nonprofit site where contributors find events and donate.',
+    dates: 'Mar 2017 – Sep 2019',
+    rungs: [
+      {
+        title: 'Full Stack Developer',
+        dates: 'Sep 2018 – Sep 2019',
+        bullets: [
+          'Replaced error-prone Excel data entry with a MongoDB data platform for a large dataset.',
+          'Built MEAN-stack APIs for a doctor–patient platform with dynamic questionnaires and appointment scheduling.',
+          'Designed the UI and integrated online payments for a nonprofit site where contributors find events and donate.',
+        ],
+      },
+      {
+        title: 'Software Engineer Intern',
+        dates: 'Mar 2017 – May 2018',
+        bullets: [
+          'Developed web applications using the MEAN stack (MongoDB, Express.js, Angular, Node.js).',
+          'Designed responsive websites with HTML, CSS and Bootstrap.',
+          'Delivered functional web-based applications, improving client-facing solutions.',
+        ],
+      },
     ],
-    tags: ['MongoDB', 'MEAN stack'],
+    tags: ['MongoDB', 'Express', 'Angular', 'Node.js', 'Bootstrap'],
   },
 ];
 
