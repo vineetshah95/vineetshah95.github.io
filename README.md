@@ -4,17 +4,20 @@ Personal portfolio of Vineet Shah, Senior Software Engineer (backend systems, fu
 
 **Live site:** https://vineetshah95.github.io
 
+Built with Next.js (App Router), React and TypeScript, exported as a static site and deployed to GitHub Pages by GitHub Actions.
+
 ## What's here
-- `index.html`: the whole site as one self-contained page (HTML, CSS and a little vanilla JS, no build step)
-- `resume.pdf`: my résumé
-- `img/`: project screenshots
-- `og.png`: the preview image shown when the link is shared
+- `data/content.ts`: all page copy (experience, projects, skills, certifications). Edit this to update the site.
+- `components/`: one React component per section, plus small client components for the theme toggle, cursor glow and section nav.
+- `app/`: layout (fonts, metadata), page and global styles.
+- `public/`: static files (project screenshots, `og.png` link preview).
+- `.github/workflows/deploy.yml`: builds and deploys on every push to `main`.
 
 ## Run locally
-Open `index.html` in a browser, or serve the folder:
-
 ```bash
-python3 -m http.server 8000
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # static site in out/
 ```
 
 ## Contact
