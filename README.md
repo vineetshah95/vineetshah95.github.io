@@ -2,7 +2,7 @@
 
 Personal portfolio of Vineet Shah, Senior Software Engineer (backend systems, full stack, cloud).
 
-**Live site:** https://vineetshah95.github.io
+**Live site:** https://shahvineet.com
 
 Built with Next.js (App Router), React and TypeScript, exported as a static site and deployed to GitHub Pages by GitHub Actions.
 

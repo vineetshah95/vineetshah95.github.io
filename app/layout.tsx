@@ -7,7 +7,7 @@ const display = Bricolage_Grotesque({ subsets: ['latin'], weight: ['400', '600',
 const body = Hanken_Grotesk({ subsets: ['latin'], weight: ['400', '500', '600'], style: ['normal', 'italic'], variable: '--font-body' });
 const mono = JetBrains_Mono({ subsets: ['latin'], weight: ['400', '500'], variable: '--font-mono' });
 
-const site = 'https://vineetshah95.github.io';
+const site = 'https://shahvineet.com';
 const description =
   'Vineet Shah, Senior Software Engineer. Backend systems, full stack, cloud. Java, Spring Boot, AWS, Kubernetes, React, Angular.';
 
